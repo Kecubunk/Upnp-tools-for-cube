@@ -1,0 +1,6 @@
+#!/bin/bash
+
+#command to on
+curl -X POST -H "Content-Type: text/xml" \
+    -H "SOAPAction: SOAPACTION: "urn:Belkin:service:basicevent:1#GetBinaryState"" \
+    --data @on.xml \http://192.168.1.50/upnp/control/basicevent1
